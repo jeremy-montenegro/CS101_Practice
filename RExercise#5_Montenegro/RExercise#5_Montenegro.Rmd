@@ -140,7 +140,7 @@ a <- matrix(1:4, nrow = 2)
 b <- matrix(5:8, nrow = 2)
 a %*% b
 ```
-Answer: for me, it was very confusing how they got that answer, a * b simply multiplies the values in the same positions, but with the %*% operator, it become complicated to me. 
+Answer: "%*%" multiplies the rows of the first matrix by the columns of the second matrix. Unlike '*', it does not multiply elements in the same positions.
 ```{r}
 # TODO: A new student "Dex" scored 85 on Quiz1 and 91 on Quiz2.
 # Use cbind() to add a new column to scores called Dex with

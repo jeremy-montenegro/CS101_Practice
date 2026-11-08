@@ -522,9 +522,9 @@ a %*% b</code></pre>
 <pre><code>##      [,1] [,2]
 ## [1,]   23   31
 ## [2,]   34   46</code></pre>
-<p>Answer: for me, it was very confusing how they got that answer, a * b
-simply multiplies the values in the same positions, but with the %*%
-operator, it become complicated to me.</p>
+<p>Answer: “%<em>%” multiplies the rows of the first matrix by the
+columns of the second matrix. Unlike ’</em>’, it does not multiply
+elements in the same positions.</p>
 <pre class="r"><code># TODO: A new student &quot;Dex&quot; scored 85 on Quiz1 and 91 on Quiz2.
 # Use cbind() to add a new column to scores called Dex with
 # these two values. Store the result as scores_v2 and print it.</code></pre>
